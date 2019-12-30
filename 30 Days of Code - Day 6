@@ -1,0 +1,11 @@
+n = int(input())
+for i in range(0, n):
+    even = ''
+    odd = ''
+    a = input()
+    for i in range(0, len(a)):
+        if i % 2 == 0:
+            even += a[i]
+        else: 
+            odd += a[i]
+    print(even, odd)
