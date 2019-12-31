@@ -1,0 +1,4 @@
+function vowelsAndConsonants(s) {
+    s.split('').map(e =>{if('aeiou'.indexOf(e) != -1){ console.log(e)}})
+    s.split('').map(e =>{if('aeiou'.indexOf(e) == -1){ console.log(e)}})
+}
