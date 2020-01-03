@@ -1,0 +1,5 @@
+result = ''
+for i in range(len(arr)):
+    result = str(arr[i]) + ' ' + result
+
+print(result)
