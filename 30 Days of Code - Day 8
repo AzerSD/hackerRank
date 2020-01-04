@@ -1,0 +1,15 @@
+import sys
+n = int(input())
+phoneBook = {}
+
+for i in range(n):
+    key_value = input().split(' ')
+    phoneBook[key_value[0]] = key_value[1]
+
+a=sys.stdin.readline().strip()
+while a:
+    if a in phoneBook:
+        print(a+ '=' +phoneBook[a])
+    else: 
+        print('Not found')
+    a=sys.stdin.readline().strip()
