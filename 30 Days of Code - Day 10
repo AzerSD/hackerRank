@@ -1,0 +1,13 @@
+c = 0
+consecutive = 0
+while n > 0:
+    remainder = n % 2
+    n = n // 2
+    if remainder == 1:
+        c += 1
+        if c > consecutive:
+            consecutive  = c
+    else:
+        c = 0
+
+print( consecutive )
